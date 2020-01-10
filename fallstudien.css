@@ -1,0 +1,46 @@
+/*
+ * Base structure
+ */
+
+body {
+	max-width: 1280px;
+  margin: 0 auto; /* Außenrandabstand */
+}
+
+/* Definitionen für die Header Elemente */
+.header {
+	background-color: rgb(23, 160, 184); /* Hintergrundfarbe */
+}
+.headerlogo {
+	height:120px; /* Höhe des Elements in Pixel */
+	background-image:url(../img/logo.png); /* Hintergrundbild (wenn vorhanden) */
+	background-repeat:no-repeat; /* Einstellung für Hintergrundbild: Wiederholung */
+}
+.headertext_large {
+  color: #000000; /* Textfarbe */
+  font-size:1.5em; /* Schriftgröße relativ zum Elternelement */
+  text-align: right; /* Ausrichtung des Textes */
+  letter-spacing: 2px; /* Zeichenabstand */
+  padding: 25px 25px 25px 0; /* Innenrandabstand */
+}
+
+/*
+ * Main content
+ */
+
+.content {
+	margin: 20px 40px 40px 40px;
+	min-height:400px;
+}
+
+
+/*
+ * Footer
+ */
+ 
+.footer {
+	padding: 10px 25px;
+	text-align: right;
+  background-color: #f5f5f5;
+}
+
