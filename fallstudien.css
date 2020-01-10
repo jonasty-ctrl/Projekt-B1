@@ -9,7 +9,7 @@ body {
 
 /* Definitionen für die Header Elemente */
 .header {
-	background-color: rgb(23, 160, 184); /* Hintergrundfarbe */
+	background-color: #909090; /* Hintergrundfarbe */
 }
 .headerlogo {
 	height:120px; /* Höhe des Elements in Pixel */
